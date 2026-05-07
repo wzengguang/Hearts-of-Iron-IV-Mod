@@ -1,0 +1,74 @@
+spriteTypes = {
+
+	### 特工 ###
+
+	spriteType = {
+		name = "GFX_portrait_CHI_zheng_pingru"
+		texturefile = "gfx/leaders/SPY/CHI/portrait_chi_zheng_pingru.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_xu_lai"
+		texturefile = "gfx/leaders/SPY/CHI/portrait_chi_xu_lai.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_li_kenong"
+		texturefile = "gfx/leaders/SPY/PRC/portrait_prc_li_kenong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_xiong_xianghui"
+		texturefile = "gfx/leaders/SPY/PRC/portrait_prc_xiong_xianghui.dds"
+	}
+
+	### 情报头目 ###
+
+	spriteType = {
+		name = "GFX_portrait_CHI_zhu_jihua_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_zhu_jiahua_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_zheng_jiemin_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_zheng_jiemin_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_xu_enzeng_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_xu_enzeng_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_he_yaozu_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_he_yaozu_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_tang_zong_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_tang_zong_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_chi_buzhou_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_CHI_chi_buzhou_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRC_zeng_xisheng_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_PRC_zeng_xisheng_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRC_yan_baohang_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_PRC_yan_baohang_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRC_wang_shiying_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_PRC_wang_shiying_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRC_pan_hannian_small"
+		texturefile = "gfx/interface/ideas/SPY/portrait_PRC_pan_hannian_small.dds"
+	}
+
+}

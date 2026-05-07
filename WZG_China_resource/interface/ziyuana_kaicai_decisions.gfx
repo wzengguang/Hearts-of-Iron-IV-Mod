@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sailisi_ziyuan_kaicai_decisions"
+		texturefile = "gfx/interface/decisions/sailisi_ziyuan_kaicai_decisions.png"
+	}
+}

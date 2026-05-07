@@ -1,0 +1,7 @@
+Chinese_ziyuan_kaicai_plus = {
+	icon = generic_prospect_for_resources
+	picture = GFX_sailisi_ziyuan_kaicai_decisions
+	allowed = {
+	}
+	priority = 10
+}

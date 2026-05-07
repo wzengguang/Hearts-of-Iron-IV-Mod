@@ -1,0 +1,40 @@
+more_operatives_decision = {
+
+	add_operative_slot = {
+		icon = generic_political_discourse
+		available = {
+			has_intelligence_agency = yes
+			is_ai = no
+			is_subject = no
+		}
+		visible = {
+			is_ai = no
+			has_intelligence_agency = yes
+		}
+		fire_only_once = no
+
+		modifier = {
+			operative_slot = 15
+		}
+		days_remove = -1
+	}
+
+	covert_front = {
+		icon = generic_political_discourse
+		available = {
+			has_intelligence_agency = yes
+			is_ai = no
+			is_subject = no
+		}
+		visible = {
+			is_ai = no
+			has_intelligence_agency = yes
+		}
+		fire_only_once = no
+		modifier = {
+			own_operative_detection_chance = -50
+		}
+		days_remove = -1
+	}
+
+}

@@ -1,0 +1,201 @@
+characters = {
+
+	### CHI SCIENTISTS ###
+
+	### 李政道 ###
+	LOL_CHI_li_zhengdao = {
+		name = CHI_li_zhengdao
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_li_zhengdao.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_bright scientist_trait_nuclear_warfare_expert }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 赵忠尧 ###
+	LOL_CHI_zhao_zhongyao = {
+		name = CHI_zhao_zhongyao
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_zhao_zhongyao.dds"
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 吴大猷 ###
+	LOL_CHI_wu_dayou = {
+		name = CHI_wu_dayou
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_wu_dayou.dds"
+			}
+		}
+
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist scientist_trait_brilliant_theorist }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	### 叶在馥 ###
+	LOL_CHI_ye_zaifu = {
+		name = CHI_ye_zaifu
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_ye_zaifu.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	### 李承干 ###
+	LOL_CHI_li_chenggan = {
+		name = CHI_li_chenggan
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_li_chenggan.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_resourceful }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+	### 俞大维 ###
+	LOL_CHI_yu_dawei = {
+		name = CHI_yu_dawei
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/CHI/portrait_CHI_yu_dawei.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_artillery_specialist }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+	### PRC SCIENTISTS ###
+
+	### 束星北 ###
+	LOL_PRC_shu_xingbei = {
+		name = PRC_shu_xingbei
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_shu_xingbei.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_brilliant_theorist scientist_trait_electronics_specialist }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 齐志焜 ###
+	LOL_PRC_qi_zhikun = {
+		name = PRC_qi_zhikun
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_qi_zhikun.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_aircraft_specialist scientist_trait_helicopter_expert }
+			skills = {
+				specialization_air = 1
+			}
+		}
+	}
+
+	### 徐振骐 ###
+	LOL_PRC_xu_zhenqi = {
+		name = PRC_xu_zhenqi
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_xu_zhenqi.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_surface_ship_specialist }
+			skills = {
+				specialization_naval = 1
+			}
+		}
+	}
+
+	### 刘鼎 ###
+	LOL_PRC_liu_ding = {
+		name = PRC_liu_ding
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_liu_ding.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_gifted_engineer scientist_trait_resourceful }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+	### 沈鸿 ###
+	LOL_PRC_shen_hong = {
+		name = PRC_shen_hong
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_shen_hong.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_gifted_engineer }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+	### 吴运铎 ###
+	LOL_PRC_wu_yunduo = {
+		name = PRC_wu_yunduo
+		portraits = {
+			army = {
+				large = "gfx/leaders/Scientists/PRC/portrait_PRC_wu_yunduo.dds"
+			}
+		}
+		scientist = {
+			traits = { scientist_trait_fast_learner }
+			skills = {
+				specialization_land = 1
+			}
+		}
+	}
+
+}

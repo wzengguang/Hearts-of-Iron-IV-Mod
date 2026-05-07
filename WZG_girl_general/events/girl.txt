@@ -1,0 +1,457 @@
+﻿add_namespace = Female_sergeant
+
+country_event = {
+
+id = Female_sergeant.2
+
+title = Female_sergeant.2.t
+
+desc = Female_sergeant.2.d
+
+picture = GFX_report_event_spr_anarchists2
+
+fire_only_once = yes
+
+is_triggered_only = yes
+
+option = {
+
+name = Female_sergeant.2.a
+
+
+
+create_corps_commander = {
+	name = "X1娜塔莎"
+	portrait_path = "gfx/leaders/000/001.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X2爱丽丝"
+	portrait_path = "gfx/leaders/000/002.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X3罗莎莉"
+	portrait_path = "gfx/leaders/000/003.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X4丽莎"
+	portrait_path = "gfx/leaders/000/004.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X5玛丽亚"
+	portrait_path = "gfx/leaders/000/005.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X6佐亚"
+	portrait_path = "gfx/leaders/000/006.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X7玛丽"
+	portrait_path = "gfx/leaders/000/007.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X8伊琳娜"
+	portrait_path = "gfx/leaders/000/008.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X9柳德米拉"
+	portrait_path = "gfx/leaders/000/009.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X10卡秋莎"
+	portrait_path = "gfx/leaders/000/010.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X11艾莉"
+	portrait_path = "gfx/leaders/000/011.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X12阿纳斯塔西娅"
+	portrait_path = "gfx/leaders/000/012.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X13玛尔塔"
+	portrait_path = "gfx/leaders/000/013.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X14莜雪"
+	portrait_path = "gfx/leaders/000/014.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X15芳尼林"
+	portrait_path = "gfx/leaders/000/015.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "X16卡尔"
+	portrait_path = "gfx/leaders/000/016.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X17海德薇"
+	portrait_path = "gfx/leaders/000/017.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X18朱迪"
+	portrait_path = "gfx/leaders/000/018.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X19莉迪亚"
+	portrait_path = "gfx/leaders/000/019.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X20极光"
+	portrait_path = "gfx/leaders/000/020.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X21安娜"
+	portrait_path = "gfx/leaders/000/021.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X22劳拉"
+	portrait_path = "gfx/leaders/000/022.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X23海达"
+	portrait_path = "gfx/leaders/000/023.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "X24埃莉诺"
+	portrait_path = "gfx/leaders/000/024.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name = "X25米娅"
+	portrait_path = "gfx/leaders/000/025.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X26黛西"
+	portrait_path = "gfx/leaders/000/026.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X27瑜颖"
+	portrait_path = "gfx/leaders/000/027.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X28汉娜"
+	portrait_path = "gfx/leaders/000/028.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X29保罗琳"
+	portrait_path = "gfx/leaders/000/029.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X30红梅"
+	portrait_path = "gfx/leaders/000/030.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "X31娜塔莉亚"
+	portrait_path = "gfx/leaders/000/031.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X32桂英"
+	portrait_path = "gfx/leaders/000/032.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X33文华"
+	portrait_path = "gfx/leaders/000/033.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X34凯瑟琳"
+	portrait_path = "gfx/leaders/000/034.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X35玉滢"
+	portrait_path = "gfx/leaders/000/035.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X36莱奥妮"
+	portrait_path = "gfx/leaders/000/036.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X37英霞"
+	portrait_path = "gfx/leaders/000/037.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X38梦妍"
+	portrait_path = "gfx/leaders/000/038.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X39曼涵"
+	portrait_path = "gfx/leaders/000/039.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "X40叙梅"
+	portrait_path = "gfx/leaders/000/040.dds"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+
+
+
+
+
+
+}
+option = {
+
+name = Female_sergeant.2.b
+}
+}

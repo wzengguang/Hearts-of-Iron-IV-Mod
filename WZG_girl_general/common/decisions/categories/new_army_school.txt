@@ -1,0 +1,14 @@
+frnco_category = {
+
+	icon = generic_formable_nations
+	#desc = 陆海军士官学校一二期女子士官正在待命！
+	#picture = GFX_report_event_spr_anarchists2
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_ai = no
+	}
+}

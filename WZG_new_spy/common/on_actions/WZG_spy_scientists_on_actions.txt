@@ -1,0 +1,236 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {
+				### 特工 ###
+				create_operative_leader = {
+					name = CHI_xiang_yingxin
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_xiang_yingxin.dds"
+					traits = { operative_seducer operative_well_groomed }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_zhang_chunlian
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_zhang_chunlian.dds"
+					traits = { operative_seducer operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_fei_xia
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_fei_xia.dds"
+					traits = { operative_seducer operative_double_agent }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_xu_yuanju
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_xu_yuanju.dds"
+					traits = { operative_master_interrogator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_zhou_yanghao
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_zhou_yanghao.dds"
+					traits = { operative_master_interrogator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_shen_zui
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_shen_zui.dds"
+					traits = { operative_commando operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_ying_yin
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_ying_yin.dds"
+					traits = { operative_seducer operative_double_agent operative_well_groomed }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_an_zhanjiang
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_an_zhanjiang.dds"
+					traits = { operative_infiltrator operative_commando }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_li_li
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_li_li.dds"
+					traits = { operative_seducer operative_linguist operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = CHI_lin_guisheng
+					GFX = "gfx/leaders/SPY/CHI/portrait_chi_lin_guisheng.dds"
+					traits = { operative_seducer }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+
+				### 科学家 ###
+				recruit_character = LOL_CHI_li_zhengdao
+				recruit_character = LOL_CHI_zhao_zhongyao
+				recruit_character = LOL_CHI_wu_dayou
+				recruit_character = LOL_CHI_ye_zaifu
+				recruit_character = LOL_CHI_li_chenggan
+				recruit_character = LOL_CHI_yu_dawei
+			}
+
+			PRC = {
+				### 特工 ###
+				create_operative_leader = {
+					name = PRC_sheng_anna
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_sheng_anna.dds"
+					traits = { operative_seducer operative_well_groomed }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_zhu_feng
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_zhu_feng.dds"
+					traits = { operative_well_groomed operative_tough }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_wu_shi
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_wu_shi.dds"
+					traits = { operative_infiltrator operative_tough }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_chen_zhongjing
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_chen_zhongjing.dds"
+					traits = { operative_well_groomed operative_linguist }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_chen_baocang
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_chen_baocang.dds"
+					traits = { operative_infiltrator operative_tough }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_bao_junpu
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_bao_junpu.dds"
+					traits = { operative_infiltrator operative_linguist }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_guan_lu
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_guan_lu.dds"
+					traits = { operative_natural_orator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_an_e
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_an_e.dds"
+					traits = { operative_seducer operative_well_groomed }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_huang_mulan
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_huang_mulan.dds"
+					traits = { operative_seducer operative_escape_artist }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_guo_rugui
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_guo_rugui.dds"
+					traits = { operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_chen_xiuliang
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_chen_xiuliang.dds"
+					traits = { operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_hu_jibang
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_hu_jibang.dds"
+					traits = { operative_linguist operative_natural_orator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { CHI RNG PRC }
+				}
+				create_operative_leader = {
+					name = PRC_cao_xiangren
+					GFX = "gfx/leaders/SPY/PRC/portrait_prc_cao_xiangren.dds"
+					traits = { operative_safe_cracker }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = no
+					nationalities = { CHI RNG PRC }
+				}
+
+				### 科学家 ###
+				recruit_character = LOL_PRC_shu_xingbei
+				recruit_character = LOL_PRC_qi_zhikun
+				recruit_character = LOL_PRC_xu_zhenqi
+				recruit_character = LOL_PRC_liu_ding
+				recruit_character = LOL_PRC_shen_hong
+				recruit_character = LOL_PRC_wu_yunduo
+			}
+		}
+	}
+}

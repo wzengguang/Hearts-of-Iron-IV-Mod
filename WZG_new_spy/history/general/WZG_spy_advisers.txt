@@ -1,0 +1,175 @@
+CHI = {
+	limit = {
+		has_dlc = "La Resistance"
+		is_dynamic_country = no
+	}
+
+	### 郑介民 ###
+	generate_character = {
+		token_base = CHI_zheng_jiemin
+		advisor = {
+			slot = political_advisor
+			traits = { head_of_intelligence }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_zheng_jiemin_small
+			}
+		}
+	}
+
+	### 贺耀祖 ###
+	generate_character = {
+		token_base = CHI_he_yaozu
+		advisor = {
+			slot = political_advisor
+			traits = { spymaster_no_lar }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_he_yaozu_small
+			}
+		}
+	}
+
+	### 唐纵 ###
+	generate_character = {
+		token_base = CHI_tang_zong
+		advisor = {
+			slot = political_advisor
+			traits = { HUN_military_intelligence_officer }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_tang_zong_small
+			}
+		}
+	}
+
+	### 池步洲 ###
+	generate_character = {
+		token_base = CHI_chi_buzhou
+		advisor = {
+			slot = political_advisor
+			traits = { mastermind_code_cracker }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_chi_buzhou_small
+			}
+		}
+	}
+
+	### 徐恩曾 ###
+	generate_character = {
+		token_base = CHI_xu_enzeng
+		portraits = {
+			army = {
+				small = GFX_portrait_CHI_xu_enzeng_small
+			}
+		}
+		gender = male
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_xu_enzeng
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = CHI
+				has_dlc = "La Resistance"
+			}
+			traits = { PHI_intelligence_bureau_chief }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+}
+
+PRC = {
+	limit = {
+		has_dlc = "La Resistance"
+		is_dynamic_country = no
+	}
+
+	### 曾希圣 ###
+	generate_character = {
+		token_base = PRC_zeng_xisheng
+		advisor = {
+			slot = political_advisor
+			traits = { expert_code_cracker }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_PRC_zeng_xisheng_small
+			}
+		}
+	}
+
+	### 阎宝航 ###
+	generate_character = {
+		token_base = PRC_yan_baohang
+		advisor = {
+			slot = political_advisor
+			traits = { SWI_intelligence_officer }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_PRC_yan_baohang_small
+			}
+		}
+	}
+
+	### 王世英 ###
+	generate_character = {
+		token_base = PRC_wang_shiying
+		advisor = {
+			slot = political_advisor
+			traits = { HUN_military_intelligence_officer }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_PRC_wang_shiying_small
+			}
+		}
+	}
+
+	### 潘汉年 ###
+	generate_character = {
+		token_base = PRC_pan_hannian
+		advisor = {
+			slot = political_advisor
+			traits = { GER_intelligence_coordinator }
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_portrait_PRC_pan_hannian_small
+			}
+		}
+	}
+}

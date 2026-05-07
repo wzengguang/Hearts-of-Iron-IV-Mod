@@ -1,0 +1,20 @@
+frnco_category = {
+    girl_for_battle = {
+        visible = {
+            is_ai = no
+            NOT = { has_country_flag = frnco_girls_recruited }
+        }
+
+        available = {
+            is_ai = no
+        }
+
+        fire_only_once = yes
+        cost = 5
+
+        complete_effect = {
+            set_country_flag = frnco_girls_recruited
+            country_event = { id = Female_sergeant.2 }
+        }
+    }
+}

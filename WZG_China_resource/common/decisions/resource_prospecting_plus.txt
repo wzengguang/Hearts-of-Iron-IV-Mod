@@ -1,0 +1,4813 @@
+Chinese_ziyuan_kaicai_plus = {
+	#####煤矿############################################ 
+	#####################################################
+	develop_eerduosi_meikuang_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 746
+			}
+		}
+		visible = {
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			746 = {
+				add_resource = {
+					type = coal
+					amount = 30
+				}
+			}
+			set_country_flag = eerduosi_meikuang_coal_mines_flag
+		}
+	}
+	develop_eerduosi_meikuang_coal_mines_1 = {
+		name = develop_eerduosi_meikuang_coal_mines
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			has_tech = excavation4
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 746
+			}
+		}
+		visible = {
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			has_tech = excavation4
+			has_country_flag = eerduosi_meikuang_coal_mines_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			746 = {
+				add_resource = {
+					type = coal
+					amount = 30
+				}
+			}
+			set_country_flag = eerduosi_meikuang_coal_mines_1_flag
+		}
+	}
+	develop_eerduosi_meikuang_coal_mines_2 = {
+		name = develop_eerduosi_meikuang_coal_mines
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			has_tech = excavation4
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 746
+			}
+		}
+		visible = {
+			OR = {
+				746 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 746
+				}
+			}
+			746 = {
+				NOT = {
+					has_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 4
+					}
+				}
+			}
+			has_tech = excavation4
+			has_country_flag = eerduosi_meikuang_coal_mines_1_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 4
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			746 = {
+				add_resource = {
+					type = coal
+					amount = 40
+				}
+			}
+			746 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = develop_coal_mines_plus_flag
+						}
+					}
+					set_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	develop_shanxi_meikuang_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			615 = {
+				add_resource = {
+					type = coal
+					amount = 30
+				}
+			}
+			set_country_flag = shanxi_meikuang_coal_mines_flag
+		}
+	}
+	develop_shanxi_meikuang_coal_mines_1 = {
+		name = develop_shanxi_meikuang_coal_mines
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			has_tech = excavation4
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			has_tech = excavation4
+			has_country_flag = shanxi_meikuang_coal_mines_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			615 = {
+				add_resource = {
+					type = coal
+					amount = 30
+				}
+			}
+			set_country_flag = shanxi_meikuang_coal_mines_1_flag
+		}
+	}
+	develop_shanxi_meikuang_coal_mines_2 = {
+		name = develop_shanxi_meikuang_coal_mines
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			has_tech = excavation5
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			615 = {
+				NOT = {
+					has_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 4
+					}
+				}
+			}
+			has_country_flag = shanxi_meikuang_coal_mines_1_flag
+			has_tech = excavation5
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 4
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			615 = {
+				add_resource = {
+					type = coal
+					amount = 40
+				}
+			}
+			615 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = develop_coal_mines_plus_flag
+						}
+					}
+					set_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = develop_coal_mines_plus_flag
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	develop_hulunbeier_yimin_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				761 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 761
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 761
+			}
+		}
+		visible = {
+			OR = {
+				761 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 761
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			761 = {
+				add_resource = {
+					type = coal
+					amount = 30
+				}
+			}
+		}
+	}
+	develop_wucaiwan_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 618
+			}
+		}
+		visible = {
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			618 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_heilongjiang_jixi_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				714 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 714
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 714
+			}
+		}
+		visible = {
+			OR = {
+				714 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 714
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			714 = {
+				add_resource = {
+					type = coal
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_hebei_kailuan_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 609
+			}
+		}
+		visible = {
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			609 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_heilongjia_shuangyashan_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				614 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 614
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 614
+			}
+		}
+		visible = {
+			OR = {
+				614 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 614
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			614 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_anhui_huaibei_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 606
+			}
+		}
+		visible = {
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			606 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_anhui_huainan_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+			has_tech = excavation3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 606
+			}
+		}
+		visible = {
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+			has_tech = excavation3
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			606 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_neimeng_tongliao_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				715 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 715
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 715
+			}
+		}
+		visible = {
+			OR = {
+				715 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 715
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			715 = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_jiangsu_xuzhou_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				598 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 598
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 598
+			}
+		}
+		visible = {
+			OR = {
+				598 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 598
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			598 = {
+				add_resource = {
+					type = coal
+					amount = 10
+				}
+			}
+		}
+	}
+	develop_shandong_yanzhou_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				1038 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 1038
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1038
+			}
+		}
+		visible = {
+			OR = {
+				1038 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 1038
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			1038 = {
+				add_resource = {
+					type = coal
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_helan_pingdingshan_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+			has_tech = excavation2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 607
+			}
+		}
+		visible = {
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			607 = {
+				add_resource = {
+					type = coal
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_guizhou_liupanshui_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				603 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 603
+				}
+			}
+			has_tech = excavation4
+			has_tech = construction4
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 603
+			}
+		}
+		visible = {
+			OR = {
+				603 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 603
+				}
+			}
+			has_tech = excavation4
+			has_tech = construction4
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			603 = {
+				add_resource = {
+					type = coal
+					amount = 10
+				}
+			}
+		}
+	}
+	develop_sichuan_panzhihua_coal_mines = {
+		icon = coal
+		allowed = {
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			has_tech = excavation4
+			has_tech = construction4
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 751
+			}
+		}
+		visible = {
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			has_tech = excavation4
+			has_tech = construction4
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				# Too low PP
+				factor = 0.5
+				has_political_power < 80
+			}
+			modifier = {
+				#We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = {
+				#Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = coal
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			751 = {
+				add_resource = {
+					type = coal
+					amount = 10
+				}
+			}
+		}
+	}
+	##########################################################################################################
+	##########################################################################################################
+	develop_Panzhihua_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 751
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_Panzhihua_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_Panzhihua_steel_duration
+				value = 30
+			}
+			751 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_Panzhihua_steel_deposits_1 = {
+		name = develop_Panzhihua_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 751
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			has_country_flag = develop_Panzhihua_steel_deposits_flag
+		}
+		cost = 40
+		fire_only_once = yes
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_Panzhihua_steel_deposits_1_flag
+			add_to_variable = {
+				var = PRC_Panzhihua_steel_duration
+				value = 30
+			}
+			751 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_Panzhihua_steel_deposits_2 = {
+		name = develop_Panzhihua_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 751
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				751 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 751
+				}
+			}
+			751 = {
+				NOT = {
+					has_state_flag = {
+						flag = Panzhihua_aluminium_developed
+						value = 3
+					}
+				}
+			}
+			has_country_flag = develop_Panzhihua_steel_deposits_1_flag
+		}
+		cost = 50
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			751 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = Panzhihua_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = Panzhihua_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = Panzhihua_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			add_to_variable = {
+				var = PRC_Panzhihua_steel_duration
+				value = 30
+			}
+			751 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_DinYan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 606
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				606 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 606
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_HuangShi_steel_duration
+				value = 30
+			}
+			606 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_MaAnshan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				749 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 749
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 749
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				749 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 749
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_MaAnshan_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_MaAnshan_steel_duration
+				value = 30
+			}
+			749 = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+	}
+	develop_MaAnshan_steel_deposits_1 = {
+		name = develop_MaAnshan_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				749 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 749
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 749
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			has_country_flag = develop_MaAnshan_steel_deposits_flag
+			OR = {
+				749 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 749
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_MaAnshan_steel_duration
+				value = 30
+			}
+			749 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_JiDong_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 609
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_JiDong_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_TangShan_steel_duration
+				value = 30
+			}
+			609 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_JiDong_steel_deposits_1 = {
+		name = develop_JiDong_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 609
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			has_country_flag = develop_JiDong_steel_deposits_flag
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_JiDong_steel_deposits_1_flag
+			add_to_variable = {
+				var = PRC_TangShan_steel_duration
+				value = 30
+			}
+			609 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_JiDong_steel_deposits_2 = {
+		name = develop_JiDong_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 609
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			has_country_flag = develop_JiDong_steel_deposits_1_flag
+			OR = {
+				609 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 609
+				}
+			}
+			609 = {
+				NOT = {
+					has_state_flag = {
+						flag = JiDong_aluminium_developed
+						value = 3
+					}
+				}
+			}
+		}
+		cost = 50
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = {
+				var = PRC_TangShan_steel_duration
+				value = 30
+			}
+			609 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = JiDong_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = JiDong_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = JiDong_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			609 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_LvLiang_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_LvLiang_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_LvLiang_steel_duration
+				value = 30
+			}
+			615 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_LvLiang_steel_deposits_1 = {
+		name = develop_LvLiang_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			has_country_flag = develop_LvLiang_steel_deposits_flag
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_LvLiang_steel_duration
+				value = 30
+			}
+			615 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_LuZhong_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_LuZhong_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_BaoTou_steel_duration
+				value = 30
+			}
+			597 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_LuZhong_steel_deposits_1 = {
+		name = develop_LuZhong_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			has_country_flag = develop_LuZhong_steel_deposits_flag
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_LuZhong_steel_deposits_1_flag
+			add_to_variable = {
+				var = PRC_BaoTou_steel_duration
+				value = 30
+			}
+			597 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_LuZhong_steel_deposits_2 = {
+		name = develop_LuZhong_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			has_country_flag = develop_LuZhong_steel_deposits_1_flag
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_BaoTou_steel_duration
+				value = 30
+			}
+			597 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_Baotou_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				621 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 621
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 621
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				621 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 621
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_Baotou_steel_deposits_flag
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			621 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_Baotou_steel_deposits_1 = {
+		name = develop_Baotou_steel_deposits
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				621 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 621
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 621
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			has_country_flag = develop_Baotou_steel_deposits_flag
+			OR = {
+				621 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 621
+				}
+			}
+			621 = {
+				NOT = {
+					has_state_flag = {
+						flag = Baotou_aluminium_developed
+						value = 3
+					}
+				}
+			}
+		}
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			621 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = Baotou_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = Baotou_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = Baotou_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			621 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_DianZhong_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 325
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			325 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_DaZhi_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				620 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 620
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 620
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				620 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 620
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			620 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_YaSuMan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				760 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 760
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 760
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				760 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 760
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			760 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_MengKu_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 618
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			618 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_LongYan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				611 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 611
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 611
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				611 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 611
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			611 = {
+				add_resource = {
+					type = steel
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_ShiJingShan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				608 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 608
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 608
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				608 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 608
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			608 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_NingPu_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				527 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 527
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				527 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 527
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			527 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_YuanNong_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				527 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 527
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				527 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 527
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			527 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_TianShan_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				760 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 760
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 760
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				760 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 760
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			760 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_XIkunlun_steel_deposits = {
+		icon = steel
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				619 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 619
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 619
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				619 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 619
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 30
+		modifier = {
+			civilian_factory_use = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShiLu_steel_duration
+				value = 30
+			}
+			619 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_GuiZhou_aluminium_deposits = {
+		icon = aluminium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				603 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 603
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 603
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				603 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 603
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_GuiZhou_aluminium_duration
+				value = 30
+			}
+			603 = {
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_HeNan_aluminium_deposits = {
+		icon = aluminium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 607
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_HeNan_aluminium_duration
+				value = 30
+			}
+			607 = {
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_GuangXi_aluminium_deposits = {
+		icon = aluminium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				599 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 599
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 599
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				599 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 599
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_GuangXi_aluminium_duration
+				value = 30
+			}
+			599 = {
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_XiaoYi_aluminium_deposits = {
+		icon = aluminium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 615
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				615 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 615
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_GuangXi_aluminium_duration
+				value = 30
+			}
+			615 = {
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_ChangQing_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				744 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 744
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 744
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				744 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 744
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ChangQing_oil_deposits_flag
+			add_to_variable = {
+				var = PRC_ChangQing_oil_duration
+				value = 30
+			}
+			744 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_ChangQing_oil_deposits_1 = {
+		name = develop_ChangQing_oil_deposits
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				744 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 744
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 744
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				744 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 744
+				}
+			}
+			744 = {
+				NOT = {
+					has_state_flag = {
+						flag = ChangQing_aluminium_developed
+						value = 3
+					}
+				}
+			}
+			has_country_flag = develop_ChangQing_oil_deposits_flag
+		}
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			744 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = ChangQing_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = ChangQing_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = ChangQing_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			add_to_variable = {
+				var = PRC_ChangQing_oil_duration
+				value = 30
+			}
+			744 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_ShengLi_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ShengLi_oil_deposits_flag
+			add_to_variable = {
+				var = PRC_ShengLi_oil_duration
+				value = 30
+			}
+			597 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_ShengLi_oil_deposits_1 = {
+		name = develop_ShengLi_oil_deposits
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 597
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				597 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 597
+				}
+			}
+			has_country_flag = develop_ShengLi_oil_deposits_flag
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ShengLi_oil_duration
+				value = 30
+			}
+			597 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_YanChang_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation1
+			OR = {
+				1032 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 1032
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1032
+			}
+		}
+		visible = {
+			has_tech = excavation1
+			OR = {
+				1032 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 1032
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_YanChang_oil_duration
+				value = 30
+			}
+			1032 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_Kelamayi_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 618
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				618 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 618
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_ZhunGaer_oil_duration
+				value = 30
+			}
+			618 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_TaLimu_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				287 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 287
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 287
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				287 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 287
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_TaLimu_oil_deposits_flag
+			add_to_variable = {
+				var = PRC_TaLimu_oil_duration
+				value = 30
+			}
+			287 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_TaLimu_oil_deposits_1 = {
+		name = develop_TaLimu_oil_deposits
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				287 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 287
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 287
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				287 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 287
+				}
+			}
+			has_country_flag = develop_TaLimu_oil_deposits_flag
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_TaLimu_oil_duration
+				value = 30
+			}
+			287 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_YuMen_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				756 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 756
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 756
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				756 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 756
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_YuMen_oil_deposits_flag
+			add_to_variable = {
+				var = PRC_YuMen_oil_duration
+				value = 30
+			}
+			756 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
+	develop_YuMen_oil_deposits_1 = {
+		name = develop_YuMen_oil_deposits
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				756 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 756
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 756
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			has_country_flag = develop_YuMen_oil_deposits_flag
+			OR = {
+				756 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 756
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_YuMen_oil_duration
+				value = 30
+			}
+			756 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_FuShun_oil_deposits = {
+		icon = oil
+		allowed = {
+		}
+		available = {
+			has_tech = construction1
+			has_tech = excavation1
+			OR = {
+				716 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 716
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 716
+			}
+		}
+		visible = {
+			has_tech = construction1
+			has_tech = excavation1
+			OR = {
+				716 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 716
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_YuMen_oil_duration
+				value = 30
+			}
+			716 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+	}
+	develop_ZhuXi_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 600
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ZhuXi_tungsten_deposits_flag
+			add_to_variable = {
+				var = PRC_HuNan_tungsten_duration
+				value = 30
+			}
+			600 = {
+				add_resource = {
+					type = tungsten
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_ZhuXi_tungsten_deposits_1 = {
+		name = develop_ZhuXi_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 600
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+			has_country_flag = develop_ZhuXi_tungsten_deposits_flag
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ZhuXi_tungsten_deposits_1_flag
+			add_to_variable = {
+				var = PRC_HuNan_tungsten_duration
+				value = 30
+			}
+			600 = {
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_ZhuXi_tungsten_deposits_2 = {
+		name = develop_ZhuXi_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 600
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				600 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 600
+				}
+			}
+			600 = {
+				NOT = {
+					has_state_flag = {
+						flag = ZhuXi_aluminium_developed
+						value = 5
+					}
+				}
+			}
+			has_country_flag = develop_ZhuXi_tungsten_deposits_1_flag
+		}
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = {
+				var = PRC_HuNan_tungsten_duration
+				value = 30
+			}
+			600 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = ZhuXi_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = ZhuXi_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = ZhuXi_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			600 = {
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_ShiZhuYuan_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation2
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 602
+			}
+		}
+		visible = {
+			has_tech = excavation2
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ShiZhuYuan_tungsten_deposits_flag
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			602 = {
+				add_resource = {
+					type = tungsten
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_ShiZhuYuan_tungsten_deposits_1 = {
+		name = develop_ShiZhuYuan_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 602
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+			has_country_flag = develop_ShiZhuYuan_tungsten_deposits_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_ShiZhuYuan_tungsten_deposits_1_flag
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			602 = {
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_ShiZhuYuan_tungsten_deposits_2 = {
+		name = develop_ShiZhuYuan_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 602
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 602
+				}
+			}
+			has_country_flag = develop_ShiZhuYuan_tungsten_deposits_1_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			602 = {
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+		}
+	}
+	develop_MaLiPo_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 325
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_MaLiPo_tungsten_deposits_flag
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			325 = {
+				add_resource = {
+					type = tungsten
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_MaLiPo_tungsten_deposits_1 = {
+		name = develop_MaLiPo_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 325
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				325 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 325
+				}
+			}
+			has_country_flag = develop_MaLiPo_tungsten_deposits_flag
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			325 = {
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_LuanChuan_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 607
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				607 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 607
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_JiangXi_tungsten_duration
+				value = 30
+			}
+			607 = {
+				add_resource = {
+					type = tungsten
+					amount = 16
+				}
+			}
+		}
+	}
+	develop_XingLuoHang_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				595 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 595
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 595
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				595 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 595
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_XingLuoHang_tungsten_deposits_flag
+			add_to_variable = {
+				var = PRC_GuangXi_tungsten_duration
+				value = 30
+			}
+			595 = {
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+			}
+		}
+	}
+	develop_XingLuoHang_tungsten_deposits_1 = {
+		name = develop_XingLuoHang_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				595 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 595
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 595
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			has_country_flag = develop_XingLuoHang_tungsten_deposits_flag
+			OR = {
+				595 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 595
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_GuangXi_tungsten_duration
+				value = 30
+			}
+			595 = {
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_Gansu_tungsten_deposits = {
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				283 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 283
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 283
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				283 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 283
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			set_country_flag = develop_Gansu_tungsten_deposits_flag
+			add_to_variable = {
+				var = PRC_FuJian_tungsten_duration
+				value = 30
+			}
+			283 = {
+				add_resource = {
+					type = tungsten
+					amount = 12
+				}
+			}
+		}
+	}
+	develop_Gansu_tungsten_deposits_1 = {
+		name = develop_Gansu_tungsten_deposits
+		icon = tungsten
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				283 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 283
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 283
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			has_country_flag = develop_Gansu_tungsten_deposits_flag
+			OR = {
+				283 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 283
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 40
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_FuJian_tungsten_duration
+				value = 30
+			}
+			283 = {
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+		}
+	}
+	develop_Luobusa_chromium_deposits = {
+		icon = chromium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation3
+			OR = {
+				757 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 757
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 757
+			}
+		}
+		visible = {
+			has_tech = excavation3
+			OR = {
+				757 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 757
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_PanZhihua_chromium_duration
+				value = 30
+			}
+			757 = {
+				add_resource = {
+					type = chromium
+					amount = 25
+				}
+			}
+		}
+	}
+	develop_Naqu_chromium_deposits = {
+		icon = chromium
+		allowed = {
+		}
+		available = {
+			has_tech = excavation4
+			OR = {
+				322 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 322
+				}
+			}
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 322
+			}
+		}
+		visible = {
+			has_tech = excavation4
+			OR = {
+				322 = {
+					is_fully_controlled_by = ROOT
+				}
+				any_subject_country = {
+					has_full_control_of_state = 322
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 3
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 200
+				factor = 0
+			}
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = PRC_BaoTou_chromium_duration
+				value = 30
+			}
+			322 = {
+				add_resource = {
+					type = chromium
+					amount = 20
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+leader_skills = {											
+### NAVY ###					##除2##						
+ 1 = {	cost = 	100		   type = navy	   modifier = {	   naval_hit_chance = 	0.025	   naval_coordination = 	0.01	  }	 }	
+ 2 = {	cost = 	200		   type = navy	   modifier = {	   naval_hit_chance = 	0.05	   naval_coordination = 	0.02	  }	 }	
+ 3 = {	cost = 	400		   type = navy	   modifier = {	   naval_hit_chance = 	0.075	   naval_coordination = 	0.03	  }	 }	
+ 4 = {	cost = 	700		   type = navy	   modifier = {	   naval_hit_chance = 	0.1	   naval_coordination = 	0.04	  }	 }	
+ 5 = {	cost = 	1200	   type = navy	   modifier = {	   naval_hit_chance = 	0.125	   naval_coordination = 	0.05	  }	 }	
+ 6 = {	cost = 	2000	   type = navy	   modifier = {	   naval_hit_chance = 	0.15	   naval_coordination = 	0.06	  }	 }	
+ 7 = {	cost = 	3000	   type = navy	   modifier = {	   naval_hit_chance = 	0.175	   naval_coordination = 	0.07	  }	 }	
+ 8 = {	cost = 	4500	   type = navy	   modifier = {	   naval_hit_chance = 	0.2	   naval_coordination = 	0.08	  }	 }	
+ 9 = {	cost = 	6500	   type = navy	   modifier = {	   naval_hit_chance = 	0.225	   naval_coordination = 	0.09	  }	 }	
+ 10 = {	cost = 	9000	   type = navy	   modifier = {	   naval_hit_chance = 	0.25	   naval_coordination = 	0.1	  }	 }	
+ 11 = {	cost = 	12000	   type = navy	   modifier = {	   naval_hit_chance = 	0.275	   naval_coordination = 	0.11	  }	 }	
+ 12 = {	cost = 	16000	   type = navy	   modifier = {	   naval_hit_chance = 	0.3	   naval_coordination = 	0.12	  }	 }	
+ 13 = {	cost = 	20000	   type = navy	   modifier = {	   naval_hit_chance = 	0.325	   naval_coordination = 	0.13	  }	 }	
+ 14 = {	cost = 	25000	   type = navy	   modifier = {	   naval_hit_chance = 	0.35	   naval_coordination = 	0.14	  }	 }	
+ 15 = {	cost = 	30000	   type = navy	   modifier = {	   naval_hit_chance = 	0.375	   naval_coordination = 	0.15	  }	 }	
+ 16 = {	cost = 	40000	   type = navy	   modifier = {	   naval_hit_chance = 	0.4	   naval_coordination = 	0.16	  }	 }	
+ 17 = {	cost = 	50000	   type = navy	   modifier = {	   naval_hit_chance = 	0.425	   naval_coordination = 	0.17	  }	 }	
+ 18 = {	cost = 	60000	   type = navy	   modifier = {	   naval_hit_chance = 	0.45	   naval_coordination = 	0.18	  }	 }	
+ 19 = {	cost = 	70000	   type = navy	   modifier = {	   naval_hit_chance = 	0.475	   naval_coordination = 	0.19	  }	 }	
+ 20 = {	cost = 	80000	   type = navy	   modifier = {	   naval_hit_chance = 	0.5	   naval_coordination = 	0.2	  }	 }	
+											
+### Corps Commander ###					##增二项##						
+ 1 = {	cost = 	100		   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.01	   army_morale_factor = 	0.01	  }	 }	
+ 2 = {	cost = 	200		   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.01	   army_morale_factor = 	0.01	  }	 }	
+ 3 = {	cost = 	400		   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.02	   army_morale_factor = 	0.02	  }	 }	
+ 4 = {	cost = 	700		   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.02	   army_morale_factor = 	0.02	  }	 }	
+ 5 = {	cost = 	1200	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.03	   army_morale_factor = 	0.03	  }	 }	
+ 6 = {	cost = 	2000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.03	   army_morale_factor = 	0.03	  }	 }	
+ 7 = {	cost = 	3000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.04	   army_morale_factor = 	0.04	  }	 }	
+ 8 = {	cost = 	4500	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.04	   army_morale_factor = 	0.04	  }	 }	
+ 9 = {	cost = 	6500	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.05	   army_morale_factor = 	0.05	  }	 }	
+ 10 = {	cost = 	9000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.05	   army_morale_factor = 	0.05	  }	 }	
+ 11 = {	cost = 	12000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.06	   army_morale_factor = 	0.06	  }	 }	
+ 12 = {	cost = 	16000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.06	   army_morale_factor = 	0.06	  }	 }	
+ 13 = {	cost = 	20000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.07	   army_morale_factor = 	0.07	  }	 }	
+ 14 = {	cost = 	25000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.07	   army_morale_factor = 	0.07	  }	 }	
+ 15 = {	cost = 	30000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.08	   army_morale_factor = 	0.08	  }	 }	
+ 16 = {	cost = 	40000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.08	   army_morale_factor = 	0.08	  }	 }	
+ 17 = {	cost = 	50000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.09	   army_morale_factor = 	0.09	  }	 }	
+ 18 = {	cost = 	60000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.09	   army_morale_factor = 	0.09	  }	 }	
+ 19 = {	cost = 	70000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.1	   army_morale_factor = 	0.1	  }	 }	
+ 20 = {	cost = 	80000	   type = corps_commander	   modifier = {	   breakthrough_factor = 	0.1	   army_morale_factor = 	0.1	  }	 }	
+											
+### Field Marshal ###											
+ 1 = {	cost = 	100		   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.01	   army_morale_factor = 	0.01	  }	 }	
+ 2 = {	cost = 	200		   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.01	   army_morale_factor = 	0.01	  }	 }	
+ 3 = {	cost = 	400		   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.02	   army_morale_factor = 	0.02	  }	 }	
+ 4 = {	cost = 	700		   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.02	   army_morale_factor = 	0.02	  }	 }	
+ 5 = {	cost = 	1200	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.03	   army_morale_factor = 	0.03	  }	 }	
+ 6 = {	cost = 	2000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.03	   army_morale_factor = 	0.03	  }	 }	
+ 7 = {	cost = 	3000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.04	   army_morale_factor = 	0.04	  }	 }	
+ 8 = {	cost = 	4500	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.04	   army_morale_factor = 	0.04	  }	 }	
+ 9 = {	cost = 	6500	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.05	   army_morale_factor = 	0.05	  }	 }	
+ 10 = {	cost = 	9000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.05	   army_morale_factor = 	0.05	  }	 }	
+ 11 = {	cost = 	12000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.06	   army_morale_factor = 	0.06	  }	 }	
+ 12 = {	cost = 	16000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.06	   army_morale_factor = 	0.06	  }	 }	
+ 13 = {	cost = 	20000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.07	   army_morale_factor = 	0.07	  }	 }	
+ 14 = {	cost = 	25000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.07	   army_morale_factor = 	0.07	  }	 }	
+ 15 = {	cost = 	30000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.08	   army_morale_factor = 	0.08	  }	 }	
+ 16 = {	cost = 	40000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.08	   army_morale_factor = 	0.08	  }	 }	
+ 17 = {	cost = 	50000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.09	   army_morale_factor = 	0.09	  }	 }	
+ 18 = {	cost = 	60000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.09	   army_morale_factor = 	0.09	  }	 }	
+ 19 = {	cost = 	70000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.1	  		army_morale_factor = 	0.1	  }	 }	
+ 20 = {	cost = 	80000	   type = field_marshal	   modifier = {	   breakthrough_factor = 	0.1	   		army_morale_factor = 	0.1	  }	 }	
+											
+### Operative ###											
+ 1 = {	cost = 	100	   type = operative	   modifier = {					  }	 }	
+ 2 = {	cost = 	500	   type = operative	   modifier = {	   intel_network_gain = 0.10	   intelligence_agency_defense = 0.10	   operation_outcome = 0.05		  }	 }
+ 3 = {	cost = 	1000   type = operative	   modifier = {	   intel_network_gain = 0.25	   intelligence_agency_defense = 0.25	   operation_outcome = 0.1		  }	 }
+ 4 = {	cost = 	2500   type = operative	   modifier = {	   intel_network_gain = 0.40	   intelligence_agency_defense = 0.40	   operation_outcome = 0.15		  }	 }
+ 5 = {	cost = 	5000   type = operative	   modifier = {	   intel_network_gain = 0.50	   intelligence_agency_defense = 0.50	   operation_outcome = 0.2		  }	 }
+}

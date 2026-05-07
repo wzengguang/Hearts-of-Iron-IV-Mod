@@ -1,0 +1,23 @@
+[h1] Higher level upper limit [/h1] 
+1.16.*✔
+1.15.*or below✔
+lncrease the general's level limit to 20
+
+lt can be used alone or with the following mods:
+Gain more experience：https://steamcommunity.com/sharedfiles/filedetails/?id=2827152339
+More trait of generals：https://steamcommunity.com/sharedfiles/filedetails/?id=1967856041
+Get more skill slots：https://steamcommunity.com/sharedfiles/filedetails/?id=2785310169
+More experience army units：https://steamcommunity.com/sharedfiles/filedetails/?id=3367910509
+
+
+[h1] 提高将领等级上限（包括海军上将、间谍）[/h1] 
+1.16.*✔
+1.15.*及以下✔
+将领等级上限提高到20级。
+将领的四个技能上限也提高到20点。
+其他调整：间谍等级上限提高到5
+可单独使用，也可以搭配以下mod
+将领经验增加：https://steamcommunity.com/sharedfiles/filedetails/?id=2827152339
+将领等级上限：https://steamcommunity.com/sharedfiles/filedetails/?id=2785310084
+将领特质扩展：https://steamcommunity.com/sharedfiles/filedetails/?id=1967856041
+部队经验增加：https://steamcommunity.com/sharedfiles/filedetails/?id=3367910509

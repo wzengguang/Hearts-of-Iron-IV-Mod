@@ -1,0 +1,65 @@
+﻿l_english:
+ Chinese_ziyuan_kaicai_plus: "Prospect for Resources"
+ Chinese_ziyuan_kaicai_plus_desc: "Our geologists have found a number of promising resource deposits within our territories. We can spend some capital to develop these fields. Advances in extraction technology might make more deposits viable for exploitation."
+  develop_hulunbeier_yimin_coal_mines: "Survey and Exploration of the Yimin Coalfield"
+  develop_wucaiwan_coal_mines: "Survey and Exploration of the Wucaiwan Coalfield"
+  develop_eerduosi_meikuang_coal_mines: "Expanding coal mining in Erdos"
+  develop_shanxi_meikuang_coal_mines: "Expand coal mining in Shanxi"
+  develop_heilongjiang_jixi_coal_mines: "Survey and Exploration of the Jixi Coalfield"
+  develop_hebei_kailuan_coal_mines: "Survey and Exploration of the Kailuan Coalfield"
+  develop_heilongjia_shuangyashan_coal_mines: "Survey and Exploration of the Shuangyashan Coalfield"
+  develop_anhui_huaibei_coal_mines: "Survey and Exploration of the Huainan Coalfield"
+  develop_anhui_huainan_coal_mines: "Survey and Exploration of the Huaibei Coalfield"
+  develop_neimeng_tongliao_coal_mines: "Development of the Eastern Inner Mongolia Mining Area"
+  develop_jiangsu_xuzhou_coal_mines: "Survey and Exploration of the Xuzhou Coalfield"
+  develop_shandong_yanzhou_coal_mines: "Survey and Exploration of the Yanzhou Coalfield"
+  develop_helan_pingdingshan_coal_mines: "Survey and Exploration of the Pingdingshan Coal Mine"
+  develop_guizhou_liupanshui_coal_mines: "Survey and Exploration of the Liupanshui Coalfield"
+  develop_sichuan_panzhihua_coal_mines: "Survey and Exploration of the Panzhihua Coalfield"
+
+
+ develop_Panzhihua_steel_deposits: "mine PanZhiHua diggings"
+ develop_JiDong_steel_deposits: "mine JiDong diggings"
+ develop_DinYan_steel_deposits: "mine BinYan diggings"
+ develop_MaAnshan_steel_deposits: "mine MaAnShan diggings"
+ develop_LvLiang_steel_deposits: "mine LvLiang diggings"
+ develop_LuZhong_steel_deposits: "mine LuZhong diggings"
+ develop_Baotou_steel_deposits: "mine BaoTou diggings"
+ develop_DianZhong_steel_deposits: "mine DianZhong diggings"
+ develop_DaZhi_steel_deposits: "mine DaZhi diggings"
+ develop_YaSuMan_steel_deposits: "mine YaManSu diggings"
+ develop_MengKu_steel_deposits: "mine MengKu diggings"
+ develop_LongYan_steel_deposits: "mine LongYan diggings"
+ develop_ShiJingShan_steel_deposits: "mine ShiJingShan diggings"
+ develop_NingPu_steel_deposits: "mine NingPu diggings"
+ develop_YuanNong_steel_deposits: "mine YuanChen diggings"
+ develop_TianShan_steel_deposits: "mine TianShan diggings"
+ develop_XIkunlun_steel_deposits: "mine XIkunlun diggings"
+ 
+ develop_GuiZhou_aluminium_deposits: "mine GuiZhou bauxite"
+ develop_HeNan_aluminium_deposits: "mine HeNan bauxite"
+ develop_GuangXi_aluminium_deposits: "mine GuangXi bauxite"
+ develop_XiaoYi_aluminium_deposits: "mine XiaoYi bauxite"
+ 
+ develop_ChangQing_oil_deposits: "survey ChangQing oilfield"
+ develop_ShengLi_oil_deposits: "survey ShengLi oilfield"
+ develop_YanChang_oil_deposits: "survey Yan Chang oilfield"
+ develop_Kelamayi_oil_deposits: "survey KeLaMaYi oilfield"
+ develop_TaLimu_oil_deposits: "survey TaLiMu oilfield"
+ develop_YuMen_oil_deposits: "survey YuMen oilfield"
+ develop_FuShun_oil_deposits: "survey FuShun oilfield"
+ 
+ develop_ZhuXi_tungsten_deposits: "mine JiangXi tungsten "
+ develop_XingLuoHang_tungsten_deposits: "mine XingLuoHang tungsten "
+ develop_Gansu_tungsten_deposits: "mine GanSu tungsten "
+ develop_ShiZhuYuan_tungsten_deposits: "mine ShiZhuYuan tungsten "
+ develop_MaLiPo_tungsten_deposits: "mine MaLiPo tungsten"
+ develop_LuanChuan_tungsten_deposits: "mine LuanChuan tungsten"
+ 
+ develop_Luobusa_chromium_deposits: "mine LuoBuSa Chrome Mine"
+ develop_Naqu_chromium_deposits: "mine NaQu Chrome Mine"
+ 
+ 
+ 
+ 
+ 
