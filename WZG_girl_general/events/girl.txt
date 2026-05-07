@@ -19,430 +19,427 @@ option = {
 name = Female_sergeant.2.a
 
 
-
-create_corps_commander = {
-	name = "X1娜塔莎"
-	portrait_path = "gfx/leaders/000/001.dds"
-	traits = { brilliant_strategist }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "X2爱丽丝"
+create_field_marshal = {
+	name = "L2月如霜"
 	portrait_path = "gfx/leaders/000/002.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X3罗莎莉"
+	name = "D3云想衣"
 	portrait_path = "gfx/leaders/000/003.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X4丽莎"
+	name = "D4花想容"
 	portrait_path = "gfx/leaders/000/004.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X5玛丽亚"
+	name = "D5醉秋风"
 	portrait_path = "gfx/leaders/000/005.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X6佐亚"
+	name = "D6春带雨"
 	portrait_path = "gfx/leaders/000/006.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {
-	name = "X7玛丽"
+create_field_marshal = {
+	name = "L7水清浅"
 	portrait_path = "gfx/leaders/000/007.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "X8伊琳娜"
+	name = "T8月如钩"
 	portrait_path = "gfx/leaders/000/008.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X9柳德米拉"
+	name = "D9锁清秋"
 	portrait_path = "gfx/leaders/000/009.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X10卡秋莎"
+	name = "D10琼枝雪"
 	portrait_path = "gfx/leaders/000/010.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X11艾莉"
+	name = "D11西楼梦"
 	portrait_path = "gfx/leaders/000/011.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X12阿纳斯塔西娅"
+	name = "T12画屏深"
 	portrait_path = "gfx/leaders/000/012.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "X13玛尔塔"
+	name = "D13青灯影"
 	portrait_path = "gfx/leaders/000/013.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X14莜雪"
+	name = "D14照晚晴"
 	portrait_path = "gfx/leaders/000/014.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X15芳尼林"
+	name = "D15松月寒"
 	portrait_path = "gfx/leaders/000/015.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
-create_field_marshal = {
-	name = "X16卡尔"
+create_corps_commander = {
+	name = "D16芭蕉雨"
 	portrait_path = "gfx/leaders/000/016.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X17海德薇"
+	name = "D17荷风细"
 	portrait_path = "gfx/leaders/000/017.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X18朱迪"
+	name = "D18兰若音"
 	portrait_path = "gfx/leaders/000/018.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X19莉迪亚"
+	name = "T19芭蕉雨"
 	portrait_path = "gfx/leaders/000/019.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "X20极光"
+	name = "D20梨花落"
 	portrait_path = "gfx/leaders/000/020.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X21安娜"
+	name = "D21微雨棠"
 	portrait_path = "gfx/leaders/000/021.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X22劳拉"
+	name = "D22梨花白"
 	portrait_path = "gfx/leaders/000/022.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "X23海达"
+	name = "T23花照水"
 	portrait_path = "gfx/leaders/000/023.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "X24埃莉诺"
+	name = "D24南枝雪"
 	portrait_path = "gfx/leaders/000/024.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 
 create_corps_commander = {
-	name = "X25米娅"
+	name = "T25溪上雪"
 	portrait_path = "gfx/leaders/000/025.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X26黛西"
+	name = "T26清露白"
 	portrait_path = "gfx/leaders/000/026.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X27瑜颖"
+	name = "D27兰舟晚"
 	portrait_path = "gfx/leaders/000/027.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X28汉娜"
+	name = "D28晚风微"
 	portrait_path = "gfx/leaders/000/028.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X29保罗琳"
+	name = "D29荷风晚"
 	portrait_path = "gfx/leaders/000/029.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X30红梅"
+	name = "T30傲红梅"
 	portrait_path = "gfx/leaders/000/030.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "T31孤疏影"
+	portrait_path = "gfx/leaders/000/031.dds"
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "D32秋桂英"
+	portrait_path = "gfx/leaders/000/032.dds"
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_field_marshal = {
-	name = "X31娜塔莉亚"
-	portrait_path = "gfx/leaders/000/031.dds"
-	traits = { brilliant_strategist }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "X32桂英"
-	portrait_path = "gfx/leaders/000/032.dds"
-	traits = { brilliant_strategist }
-	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "X33文华"
+	name = "L33暗香"
 	portrait_path = "gfx/leaders/000/033.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X34凯瑟琳"
+	name = "D34云栖迟"
 	portrait_path = "gfx/leaders/000/034.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X35玉滢"
+	name = "D35青萝衣"
 	portrait_path = "gfx/leaders/000/035.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X36莱奥妮"
+	name = "T36桂子闲"
 	portrait_path = "gfx/leaders/000/036.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X37英霞"
+	name = "D37英彩霞"
 	portrait_path = "gfx/leaders/000/037.dds"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X38梦妍"
+	name = "T38逐梦妍"
 	portrait_path = "gfx/leaders/000/038.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "X39曼涵"
+	name = "T39妙曼涵"
 	portrait_path = "gfx/leaders/000/039.dds"
-	traits = { brilliant_strategist }
+	traits = { inflexible_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "D40雪如梅"
+	portrait_path = "gfx/leaders/000/040.dds"
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "X40叙梅"
-	portrait_path = "gfx/leaders/000/040.dds"
-	traits = { brilliant_strategist }
+	name = "T41娜莎莎"
+	portrait_path = "gfx/leaders/000/001.dds"
+	traits = { brilliant_strategist PRC_survivor_of_the_long_march infantry_officer }
 	skill = 1
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 1
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
-
-
 
 
 

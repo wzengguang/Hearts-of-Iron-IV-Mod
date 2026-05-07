@@ -6447,7 +6447,7 @@ focus = {
 				}
 				has_opinion = {
 					target = ROOT
-					value > 49
+					value > 9
 				}
 			}
 		}
