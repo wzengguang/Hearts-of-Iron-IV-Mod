@@ -1,0 +1,17 @@
+wargoal_types = {
+	PRC_annex_everything_low_tension = {
+		war_name = WAR_NAME
+
+		allowed = {
+			always = no
+		}
+
+		available = {
+		}
+
+		take_states = {
+		}
+
+		threat = 0.05
+	}
+}

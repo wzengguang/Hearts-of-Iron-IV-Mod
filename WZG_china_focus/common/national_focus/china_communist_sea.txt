@@ -2258,10 +2258,7 @@ focus_tree = {
 				}
 				display_individual_scopes = yes
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-					}
+					WZG_create_annex_wargoal_against_prev = yes
 				}
 			}
 		}
@@ -2489,10 +2486,7 @@ focus_tree = {
 				}
 
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-					}
+					WZG_create_annex_wargoal_against_prev = yes
 				}
 			}
 
@@ -2505,10 +2499,7 @@ focus_tree = {
 					}
 				}
 
-				create_wargoal = {
-					type = annex_everything
-					target = USA
-				}
+				WZG_create_annex_wargoal_against_usa = yes
 			}
 		}
 	}
@@ -2552,10 +2543,7 @@ focus_tree = {
 					}
 				}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-					}
+					WZG_create_annex_wargoal_against_prev = yes
 				}
 			}			
 
@@ -4828,6 +4816,8 @@ focus_tree = {
 		completion_reward = {
 
 			custom_effect_tooltip = PRC_bring_war_to_neighboring_warlords_tt
+			custom_effect_tooltip = PRC_low_tension_annex_wargoals_tt
+			set_country_flag = PRC_low_tension_annex_wargoals
 
 			every_other_country = {
 				limit = {
@@ -4838,11 +4828,7 @@ focus_tree = {
 					NOT = { ROOT = { has_wargoal_against = PREV } }
 				}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-						expire = 0
-					}
+					WZG_create_permanent_annex_wargoal_against_prev = yes
 				}
 			}
 
@@ -6173,10 +6159,7 @@ focus = {
 					}
 
 					ROOT = {
-						create_wargoal = {
-							type = annex_everything
-							target = PREV
-						}
+						WZG_create_annex_wargoal_against_prev = yes
 					}
 				}
 			}
@@ -6188,10 +6171,7 @@ focus = {
 					}
 				}
 
-				create_wargoal = {
-					type = annex_everything 
-					target = CHI
-				}
+				WZG_create_annex_wargoal_against_chi = yes
 			}
 		}
 	}
@@ -7467,11 +7447,7 @@ focus = {
 					NOT = { ROOT = { has_wargoal_against = PREV } }
 				}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-						expire = 0
-					}
+						WZG_create_permanent_annex_wargoal_against_prev = yes
 				}
 			}
 		}
@@ -7522,11 +7498,7 @@ focus = {
 					NOT = { ROOT = { has_wargoal_against = PREV } }
 				}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-						expire = 0
-					}
+						WZG_create_permanent_annex_wargoal_against_prev = yes
 				}
 			}
 			custom_effect_tooltip = PRC_allow_autonomous_regions_tt
@@ -7545,11 +7517,7 @@ focus = {
 
 					custom_effect_tooltip = if_they_refuse_tt
 					ROOT = {
-						create_wargoal = {
-							type = annex_everything
-							target = PREV
-							expire = 0
-						}
+							WZG_create_permanent_annex_wargoal_against_prev = yes
 					}
 				}
 			}

@@ -1,0 +1,17 @@
+on_actions = {
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = PRC_low_tension_annex_wargoals
+					FROM = { has_country_flag = PRC_low_tension_annex_wargoal_target }
+				}
+				add_named_threat = {
+					threat = -4
+					name = PRC_low_tension_annex_wargoals_threat_offset
+				}
+				FROM = { clr_country_flag = PRC_low_tension_annex_wargoal_target }
+			}
+		}
+	}
+}

@@ -1,0 +1,69 @@
+WZG_create_annex_wargoal_against_prev = {
+	if = {
+		limit = { has_country_flag = PRC_low_tension_annex_wargoals }
+		create_wargoal = {
+			type = PRC_annex_everything_low_tension
+			target = PREV
+		}
+		PREV = { set_country_flag = PRC_low_tension_annex_wargoal_target }
+	}
+	else = {
+		create_wargoal = {
+			type = annex_everything
+			target = PREV
+		}
+	}
+}
+
+WZG_create_permanent_annex_wargoal_against_prev = {
+	if = {
+		limit = { has_country_flag = PRC_low_tension_annex_wargoals }
+		create_wargoal = {
+			type = PRC_annex_everything_low_tension
+			target = PREV
+			expire = 0
+		}
+		PREV = { set_country_flag = PRC_low_tension_annex_wargoal_target }
+	}
+	else = {
+		create_wargoal = {
+			type = annex_everything
+			target = PREV
+			expire = 0
+		}
+	}
+}
+
+WZG_create_annex_wargoal_against_chi = {
+	if = {
+		limit = { has_country_flag = PRC_low_tension_annex_wargoals }
+		create_wargoal = {
+			type = PRC_annex_everything_low_tension
+			target = CHI
+		}
+		CHI = { set_country_flag = PRC_low_tension_annex_wargoal_target }
+	}
+	else = {
+		create_wargoal = {
+			type = annex_everything
+			target = CHI
+		}
+	}
+}
+
+WZG_create_annex_wargoal_against_usa = {
+	if = {
+		limit = { has_country_flag = PRC_low_tension_annex_wargoals }
+		create_wargoal = {
+			type = PRC_annex_everything_low_tension
+			target = USA
+		}
+		USA = { set_country_flag = PRC_low_tension_annex_wargoal_target }
+	}
+	else = {
+		create_wargoal = {
+			type = annex_everything
+			target = USA
+		}
+	}
+}
