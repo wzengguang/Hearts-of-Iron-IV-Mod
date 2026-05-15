@@ -1419,7 +1419,7 @@ Chinese_ziyuan_kaicai_plus = {
 			751 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -1480,7 +1480,7 @@ Chinese_ziyuan_kaicai_plus = {
 			751 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -1567,7 +1567,7 @@ Chinese_ziyuan_kaicai_plus = {
 			751 = {
 				add_resource = {
 					type = steel
-					amount = 20
+					amount = 30
 				}
 			}
 		}
@@ -1625,7 +1625,7 @@ Chinese_ziyuan_kaicai_plus = {
 			606 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -1684,7 +1684,7 @@ Chinese_ziyuan_kaicai_plus = {
 			749 = {
 				add_resource = {
 					type = steel
-					amount = 10
+					amount = 15
 				}
 			}
 		}
@@ -1744,7 +1744,7 @@ Chinese_ziyuan_kaicai_plus = {
 			749 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 24
 				}
 			}
 		}
@@ -1803,7 +1803,7 @@ Chinese_ziyuan_kaicai_plus = {
 			609 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -1864,7 +1864,7 @@ Chinese_ziyuan_kaicai_plus = {
 			609 = {
 				add_resource = {
 					type = steel
-					amount = 20
+					amount = 30
 				}
 			}
 		}
@@ -1951,7 +1951,7 @@ Chinese_ziyuan_kaicai_plus = {
 			609 = {
 				add_resource = {
 					type = steel
-					amount = 20
+					amount = 30
 				}
 			}
 		}
@@ -2010,7 +2010,7 @@ Chinese_ziyuan_kaicai_plus = {
 			615 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -2070,7 +2070,7 @@ Chinese_ziyuan_kaicai_plus = {
 			615 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 24
 				}
 			}
 		}
@@ -2129,7 +2129,7 @@ Chinese_ziyuan_kaicai_plus = {
 			597 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -2190,7 +2190,7 @@ Chinese_ziyuan_kaicai_plus = {
 			597 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2250,7 +2250,7 @@ Chinese_ziyuan_kaicai_plus = {
 			597 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 24
 				}
 			}
 		}
@@ -2309,7 +2309,7 @@ Chinese_ziyuan_kaicai_plus = {
 			621 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -2396,7 +2396,7 @@ Chinese_ziyuan_kaicai_plus = {
 			621 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2454,7 +2454,7 @@ Chinese_ziyuan_kaicai_plus = {
 			325 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2512,7 +2512,7 @@ Chinese_ziyuan_kaicai_plus = {
 			620 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2570,7 +2570,7 @@ Chinese_ziyuan_kaicai_plus = {
 			760 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2628,7 +2628,7 @@ Chinese_ziyuan_kaicai_plus = {
 			618 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -2686,7 +2686,7 @@ Chinese_ziyuan_kaicai_plus = {
 			611 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 36
 				}
 			}
 		}
@@ -2744,7 +2744,7 @@ Chinese_ziyuan_kaicai_plus = {
 			608 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 24
 				}
 			}
 		}
@@ -2802,7 +2802,7 @@ Chinese_ziyuan_kaicai_plus = {
 			527 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2860,7 +2860,7 @@ Chinese_ziyuan_kaicai_plus = {
 			527 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 18
 				}
 			}
 		}
@@ -2918,7 +2918,7 @@ Chinese_ziyuan_kaicai_plus = {
 			760 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -2976,7 +2976,7 @@ Chinese_ziyuan_kaicai_plus = {
 			619 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 12
 				}
 			}
 		}
@@ -3034,7 +3034,7 @@ Chinese_ziyuan_kaicai_plus = {
 			603 = {
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 48
 				}
 			}
 		}
@@ -3092,7 +3092,7 @@ Chinese_ziyuan_kaicai_plus = {
 			607 = {
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 48
 				}
 			}
 		}
@@ -3150,7 +3150,7 @@ Chinese_ziyuan_kaicai_plus = {
 			599 = {
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 48
 				}
 			}
 		}
@@ -3208,7 +3208,7 @@ Chinese_ziyuan_kaicai_plus = {
 			615 = {
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 48
 				}
 			}
 		}
