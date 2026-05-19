@@ -13591,30 +13591,7 @@ focus = {
 				is_controlled_by = ROOT
 			}
 			has_tech = basic_ship_hull_light ## 1936
-
-			SOV = {
-				exists = yes
-				is_subject = no
-				has_government = communism
-			}
-
 		}
-
-		
-		bypass = {
-			SOV = {
-				OR = {
-					exists = no
-					is_subject = yes
-					NOT = {
-						has_government = communism
-					}
-				}
-
-			}
-		}
-		
-	
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -14123,26 +14100,11 @@ focus = {
 			}
 			has_tech = basic_ship_hull_cruiser ## 1936
 
-			SOV = {
-				exists = yes
-				is_subject = no
-				has_government = communism
-			}
-
 		}
 
 		
 		bypass = {
-			SOV = {
-				OR = {
-					exists = no
-					is_subject = yes
-					NOT = {
-						has_government = communism
-					}
-				}
 
-			}
 		}
 		
 
@@ -14232,26 +14194,12 @@ focus = {
 				is_controlled_by = ROOT
 			}
 			has_tech = basic_ship_hull_heavy ## 1940
-			SOV = {
-				exists = yes
-				is_subject = no
-				has_government = communism
-			}
 
 		}
 
 		
 		bypass = {
-			SOV = {
-				OR = {
-					exists = no
-					is_subject = yes
-					NOT = {
-						has_government = communism
-					}
-				}
 
-			}
 		}
 		
 
